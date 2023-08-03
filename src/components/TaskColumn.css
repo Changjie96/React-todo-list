@@ -1,0 +1,22 @@
+.tasks-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.task-col {
+  border: 1px solid var(--color-primary);
+  background-color: white;
+  border-radius: 4px;
+}
+
+.task-col-header {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 1rem;
+  margin: 0;
+}
+
+.tasks {
+  padding: 1rem;
+}
